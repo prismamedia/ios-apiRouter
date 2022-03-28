@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ApiRouter (1.0.5):
+    - Alamofire (~> 5)
+
+DEPENDENCIES:
+  - ApiRouter (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  ApiRouter:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ApiRouter: b7270297813146d81cd5453d598f927b15507ad8
+
+PODFILE CHECKSUM: f9293fc0f971de6ef0dcc3492c468b8374ff0f4d
+
+COCOAPODS: 1.11.3
