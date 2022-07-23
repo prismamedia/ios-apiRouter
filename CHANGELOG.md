@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+### Update
+ - Now `Codable` is not mandatory, models only need to extends `Decodable`
+
 ## 1.1.0
 
 ### Add

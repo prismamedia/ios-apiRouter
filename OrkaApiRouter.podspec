@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'OrkaApiRouter'
-  s.version = '1.1.0'
+  s.version = '1.1.1'
   s.authors = 'Joey Barbier'
   s.summary = 'Api Router is a simple protocol to quickly connect an API.'
   s.homepage = 'https://github.com/joey-barbier/ios-apiRouter'

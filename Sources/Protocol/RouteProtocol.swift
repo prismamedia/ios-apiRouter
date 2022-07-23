@@ -19,7 +19,7 @@ public protocol Route {
 
 extension Route {
     @discardableResult
-    public func call<R: Codable> (withCompletionCall completionCall: @escaping ApiRouter.ApiResponse<R>) -> DataRequest? {
+    public func call<R: Decodable> (withCompletionCall completionCall: @escaping ApiRouter.ApiResponse<R>) -> DataRequest? {
         return ApiRouter.call(withRoute: self) { response in
             switch response.result {
             case .success(let value):
@@ -59,7 +59,7 @@ extension Route {
 @available(iOS 13.0.0, *)
 extension Route {
     @discardableResult
-    public func call<R: Codable> () async throws -> R {
+    public func call<R: Decodable> () async throws -> R {
         return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<R, Error>) in
             self.call { (result: Result<R, Error>) in
                 continuation.resume(with: result)

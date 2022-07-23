@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TodoFakeModel: Codable {
+class TodoFakeModel: Decodable {
     var id: String
     var subtitle: String
 }
