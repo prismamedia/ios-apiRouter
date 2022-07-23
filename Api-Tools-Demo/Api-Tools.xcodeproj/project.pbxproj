@@ -16,9 +16,25 @@
 		281D998625ADDDA2005D95BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281D998425ADDDA2005D95BA /* LaunchScreen.storyboard */; };
 		281D999A25ADE399005D95BA /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
 		281D99A325ADE548005D95BA /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
+		28CE9E42288C7E8B000C2B7A /* Api_ToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */; };
+		28CE9E48288C7ECA000C2B7A /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D99A225ADE548005D95BA /* Todo.swift */; };
+		28CE9E49288C7ECD000C2B7A /* ApiTodo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281D999925ADE399005D95BA /* ApiTodo.swift */; };
+		28CE9E4B288C83F3000C2B7A /* TodoFakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */; };
+		863E0BD0B3723E4E3BEF1CA6 /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		28CE9E43288C7E8B000C2B7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281D996E25ADDDA0005D95BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281D997525ADDDA0005D95BA;
+			remoteInfo = "Api-Tools";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2141AB901EFDB3E1B0CEF001 /* Pods-Api-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.debug.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.debug.xcconfig"; sourceTree = "<group>"; };
 		281D997625ADDDA0005D95BA /* Api-Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Api-Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		281D997925ADDDA0005D95BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +46,13 @@
 		281D998725ADDDA2005D95BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281D999925ADE399005D95BA /* ApiTodo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTodo.swift; sourceTree = "<group>"; };
 		281D99A225ADE548005D95BA /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Api-ToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_ToolsTests.swift; sourceTree = "<group>"; };
+		28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoFakeModel.swift; sourceTree = "<group>"; };
 		94ED7D8A98CED429FCEEEFA0 /* Pods_Api_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		D370DCF5B242C75545677525 /* Pods-Api-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Api-Tools.release.xcconfig"; path = "Target Support Files/Pods-Api-Tools/Pods-Api-Tools.release.xcconfig"; sourceTree = "<group>"; };
+		F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Api_Tools_Api_ToolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +64,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28CE9E3C288C7E8B000C2B7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863E0BD0B3723E4E3BEF1CA6 /* Pods_Api_Tools_Api_ToolsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -51,6 +80,8 @@
 			children = (
 				2141AB901EFDB3E1B0CEF001 /* Pods-Api-Tools.debug.xcconfig */,
 				D370DCF5B242C75545677525 /* Pods-Api-Tools.release.xcconfig */,
+				0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */,
+				AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -59,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				281D997825ADDDA0005D95BA /* Api-Tools */,
+				28CE9E40288C7E8B000C2B7A /* Api-ToolsTests */,
 				281D997725ADDDA0005D95BA /* Products */,
 				267146CDEBACD13C4DE52687 /* Pods */,
 				7322EEC10C2AD8ACF66E2D73 /* Frameworks */,
@@ -69,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				281D997625ADDDA0005D95BA /* Api-Tools.app */,
+				28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +111,8 @@
 			children = (
 				281D99CD25AE1E99005D95BA /* AppDelegate */,
 				281D99A025ADE534005D95BA /* Data */,
+				28CE9E3A288C722B000C2B7A /* Views */,
 				281D99CE25AE1EB0005D95BA /* Ressources */,
-				281D997D25ADDDA1005D95BA /* ViewController.swift */,
-				281D997F25ADDDA1005D95BA /* Main.storyboard */,
 			);
 			path = "Api-Tools";
 			sourceTree = "<group>";
@@ -137,10 +169,29 @@
 			path = Todo;
 			sourceTree = "<group>";
 		};
+		28CE9E3A288C722B000C2B7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				281D997F25ADDDA1005D95BA /* Main.storyboard */,
+				281D997D25ADDDA1005D95BA /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		28CE9E40288C7E8B000C2B7A /* Api-ToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CE9E41288C7E8B000C2B7A /* Api_ToolsTests.swift */,
+				28CE9E4A288C83F3000C2B7A /* TodoFakeModel.swift */,
+			);
+			path = "Api-ToolsTests";
+			sourceTree = "<group>";
+		};
 		7322EEC10C2AD8ACF66E2D73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				94ED7D8A98CED429FCEEEFA0 /* Pods_Api_Tools.framework */,
+				F0765D61D4B33E7014763E34 /* Pods_Api_Tools_Api_ToolsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,17 +218,41 @@
 			productReference = 281D997625ADDDA0005D95BA /* Api-Tools.app */;
 			productType = "com.apple.product-type.application";
 		};
+		28CE9E3E288C7E8B000C2B7A /* Api-ToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CE9E45288C7E8B000C2B7A /* Build configuration list for PBXNativeTarget "Api-ToolsTests" */;
+			buildPhases = (
+				901DD31A64BEF510F2830771 /* [CP] Check Pods Manifest.lock */,
+				28CE9E3B288C7E8B000C2B7A /* Sources */,
+				28CE9E3C288C7E8B000C2B7A /* Frameworks */,
+				28CE9E3D288C7E8B000C2B7A /* Resources */,
+				DBB40184A12AE55DFE716D49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CE9E44288C7E8B000C2B7A /* PBXTargetDependency */,
+			);
+			name = "Api-ToolsTests";
+			productName = "Api-ToolsTests";
+			productReference = 28CE9E3F288C7E8B000C2B7A /* Api-ToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		281D996E25ADDDA0005D95BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					281D997525ADDDA0005D95BA = {
 						CreatedOnToolsVersion = 12.3;
+					};
+					28CE9E3E288C7E8B000C2B7A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 281D997525ADDDA0005D95BA;
 					};
 				};
 			};
@@ -195,6 +270,7 @@
 			projectRoot = "";
 			targets = (
 				281D997525ADDDA0005D95BA /* Api-Tools */,
+				28CE9E3E288C7E8B000C2B7A /* Api-ToolsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,6 +283,13 @@
 				281D998625ADDDA2005D95BA /* LaunchScreen.storyboard in Resources */,
 				281D998325ADDDA2005D95BA /* Assets.xcassets in Resources */,
 				281D998125ADDDA1005D95BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CE9E3D288C7E8B000C2B7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +311,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools/Pods-Api-Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901DD31A64BEF510F2830771 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Api-Tools-Api-ToolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB5482FFBD7457893BCCB003 /* [CP] Check Pods Manifest.lock */ = {
@@ -252,6 +357,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DBB40184A12AE55DFE716D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Api-Tools-Api-ToolsTests/Pods-Api-Tools-Api-ToolsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -267,7 +389,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28CE9E3B288C7E8B000C2B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CE9E4B288C83F3000C2B7A /* TodoFakeModel.swift in Sources */,
+				28CE9E49288C7ECD000C2B7A /* ApiTodo.swift in Sources */,
+				28CE9E42288C7E8B000C2B7A /* Api_ToolsTests.swift in Sources */,
+				28CE9E48288C7ECA000C2B7A /* Todo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CE9E44288C7E8B000C2B7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281D997525ADDDA0005D95BA /* Api-Tools */;
+			targetProxy = 28CE9E43288C7E8B000C2B7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		281D997F25ADDDA1005D95BA /* Main.storyboard */ = {
@@ -445,6 +586,48 @@
 			};
 			name = Release;
 		};
+		28CE9E46288C7E8B000C2B7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0C5A4CE219913424540494 /* Pods-Api-Tools-Api-ToolsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M3752W435;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orka.Api-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Api-Tools.app/Api-Tools";
+			};
+			name = Debug;
+		};
+		28CE9E47288C7E8B000C2B7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC77DA3C13E6430B737B9556 /* Pods-Api-Tools-Api-ToolsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M3752W435;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.orka.Api-ToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Api-Tools.app/Api-Tools";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -462,6 +645,15 @@
 			buildConfigurations = (
 				281D998B25ADDDA2005D95BA /* Debug */,
 				281D998C25ADDDA2005D95BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CE9E45288C7E8B000C2B7A /* Build configuration list for PBXNativeTarget "Api-ToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CE9E46288C7E8B000C2B7A /* Debug */,
+				28CE9E47288C7E8B000C2B7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

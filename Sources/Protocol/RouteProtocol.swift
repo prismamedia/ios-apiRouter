@@ -55,3 +55,32 @@ extension Route {
         }
     }
 }
+
+@available(iOS 13.0.0, *)
+extension Route {
+    @discardableResult
+    public func call<R: Codable> () async throws -> R {
+        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<R, Error>) in
+            self.call { (result: Result<R, Error>) in
+                continuation.resume(with: result)
+            }
+        })
+    }
+    
+    @discardableResult
+    public func call() async throws -> Data {
+        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<Data, Error>) in
+            self.call { (result: Result<Data, Error>) in
+                continuation.resume(with: result)
+            }
+        })
+    }
+    
+    public func call() async throws {
+        return try await withCheckedThrowingContinuation({ (continuation: CheckedContinuation<Void, Error>) in
+            self.call { (result: Result<Void, Error>) in
+                continuation.resume(with: result)
+            }
+        })
+    }
+}

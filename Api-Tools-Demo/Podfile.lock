@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.6.2)
+  - OrkaApiRouter (1.0.5):
+    - Alamofire (~> 5)
+
+DEPENDENCIES:
+  - OrkaApiRouter (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  OrkaApiRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  OrkaApiRouter: c7fe190b48ea4fc0e889405d318c0d87764423f2
+
+PODFILE CHECKSUM: 19525ebb86eb13bcd39f8aa8fb8ea81ac58d09fd
+
+COCOAPODS: 1.11.3
