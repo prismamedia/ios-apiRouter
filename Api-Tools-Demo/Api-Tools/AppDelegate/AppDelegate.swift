@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import OrkaApiRouter
+import PrismaApiRouter
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+### Fix
+- Import of the library inside the demo app
+
 ## 1.1.1
 
 ### Update
