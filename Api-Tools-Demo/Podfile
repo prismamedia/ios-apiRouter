@@ -7,11 +7,11 @@ target 'Api-Tools' do
   use_frameworks!
 
   # Pods for Api-Tools
-  pod 'OrkaApiRouter', :path => '../'
+  pod 'PrismaApiRouter', :path => '../'
   
 
   target 'Api-ToolsTests' do
-    pod 'OrkaApiRouter', :path => '../'
+    pod 'PrismaApiRouter', :path => '../'
   end
   
 end

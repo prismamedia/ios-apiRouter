@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'PrismaApiRouter'
-  s.version = '1.1.1'
+  s.version = '1.1.2'
   s.authors = 'Prisma Media'
   s.summary = 'Api Router is a simple protocol to quickly connect an API.'
   s.homepage = 'https://github.com/prismamedia/ios-apiRouter'

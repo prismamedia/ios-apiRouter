@@ -1,23 +1,23 @@
 PODS:
   - Alamofire (5.6.2)
-  - OrkaApiRouter (1.0.5):
+  - PrismaApiRouter (1.1.1):
     - Alamofire (~> 5)
 
 DEPENDENCIES:
-  - OrkaApiRouter (from `../`)
+  - PrismaApiRouter (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
 
 EXTERNAL SOURCES:
-  OrkaApiRouter:
+  PrismaApiRouter:
     :path: "../"
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  OrkaApiRouter: c7fe190b48ea4fc0e889405d318c0d87764423f2
+  PrismaApiRouter: c17a420709e5c9a48e3a63bd27a0078a824a0ba3
 
-PODFILE CHECKSUM: 19525ebb86eb13bcd39f8aa8fb8ea81ac58d09fd
+PODFILE CHECKSUM: 1a8cdec9e810de354da6d6d8cbc9fc306b79d129
 
 COCOAPODS: 1.11.3

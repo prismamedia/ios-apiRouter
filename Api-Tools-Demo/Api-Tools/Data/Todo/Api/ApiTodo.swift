@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import OrkaApiRouter
+import PrismaApiRouter
 import Alamofire
 
 extension ApiRouter {
