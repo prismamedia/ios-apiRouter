@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Todo: Codable {
+class Todo: Decodable {
     var userId: Int
     var id: Int
     var title: String

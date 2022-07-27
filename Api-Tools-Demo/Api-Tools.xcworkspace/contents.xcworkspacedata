@@ -5,7 +5,7 @@
       location = "group:/Users/jbarbier/dev/open-source/ios-apiRouter/README_FR.md">
    </FileRef>
    <FileRef
-      location = "group:ApiRouter.podspec">
+      location = "group:../CHANGELOG.md">
    </FileRef>
    <FileRef
       location = "group:Api-Tools.xcodeproj">

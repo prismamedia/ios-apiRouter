@@ -33,7 +33,7 @@ extension ApiRouter {
 
 // MARK: - Handler
 extension ApiRouter {
-    internal static func handlerResult<R: Codable> (_ data: Data, completionCall: ApiResponse<R>) {
+    internal static func handlerResult<R: Decodable> (_ data: Data, completionCall: ApiResponse<R>) {
         let result = Result(catching: { try JSONDecoder().decode(R.self, from: data) })
         completionCall(result)
     }
