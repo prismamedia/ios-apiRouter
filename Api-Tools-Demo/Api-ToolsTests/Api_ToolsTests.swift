@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import OrkaApiRouter
+import PrismaApiRouter
 
 class Api_ToolsTests: XCTestCase {
 }
